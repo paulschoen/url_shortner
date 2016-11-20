@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Main:</strong>
+  <a href="<%= @url.main %>"><%= @url.main %></a>
+</p>
+
+<p>
+  <strong>Url Shortened:</strong>
+  <%= @url.id %>
+</p>
+
+<%= link_to 'Edit', edit_url_path(@url) %>
+<%= link_to 'Back', urls_path %>
