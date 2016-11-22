@@ -17,8 +17,6 @@
         <td><%= url.main %></td>
         <td><%= url.id %></td>
         <td><%= link_to 'GoTo', url.main %></td>
-        <td><%= link_to 'Edit', edit_url_path(url) %></td>
-        <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
